@@ -1139,6 +1139,10 @@ body[data-view="certificates"] .cert-year { font-weight: 600; }
 .pet-stage .pet { transition: opacity 0.35s ease; }
 .pet-stage.is-sharing .pet { opacity: 0; }
 .pet-stage.is-sharing { outline: 3px solid var(--accent, #c2410c); outline-offset: -3px; }
+
+/* Certificates: verification link */
+.cert-verify { font-size: 0.85rem; letter-spacing: 0.04em; color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.cert-verify:hover { text-decoration-thickness: 2px; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-delay: 0ms !important; transition-duration: 0.01ms !important; }
@@ -1197,9 +1201,9 @@ body[data-view="certificates"] .cert-year { font-weight: 600; }
   <section class="page-head" aria-labelledby="exp-title">
     <div class="wrap ph-grid">
       <div class="ph-text">
-        <p class="label">Experience · SRKK Consulting, Johor Bahru</p>
+        <p class="label">Experience · SRKK Consulting, Johor Bahru · since January 2025</p>
         <h1 id="exp-title">Workflows that companies run on.</h1>
-        <p class="lede">I build and support approval systems on Microsoft Power Platform, Nintex Automation Cloud and SharePoint. Four projects are below, with client names and internal details removed. The demos are simplified models of the real logic.</p>
+        <p class="lede">Associate Consultant I in Modern Workplace Automation. I build and support approval systems on Microsoft Power Platform, Nintex and SharePoint for around ten client organisations, most of them in Singapore. I joined as a SharePoint developer intern in January 2025 and went full-time in May 2025. Four projects are below, with client names and internal details removed. The demos are simplified models of the real logic.</p>
       </div>
       <figure class="flow"><svg id="flow" viewBox="0 0 520 570" role="img" aria-labelledby="flow-t"><title id="flow-t">An approval flow: a request is checked by value, then approved by the head of department, or by finance and the general manager in parallel, then filed as a PDF and the requester is emailed.</title><defs><linearGradient id="fgrad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="570"><stop class="fs-a" offset="0"/><stop class="fs-b" offset="1"/></linearGradient><filter id="fglow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g class="edges"><path class="e-base" d="M260 72 C260 106.1 260 99.9 260 134"/><path class="e-base" d="M260 190 C260 230.7 90 223.3 90 264"/><path class="e-base" d="M260 190 C260 230.7 260 223.3 260 264"/><path class="e-base" d="M260 190 C260 230.7 430 223.3 430 264"/><path class="e-base" d="M90 320 C90 356.3 260 349.7 260 386"/><path class="e-base" d="M260 320 C260 356.3 260 349.7 260 386"/><path class="e-base" d="M430 320 C430 356.3 260 349.7 260 386"/><path class="e-base" d="M260 442 C260 473.9 260 468.1 260 500"/><path class="e-lit" data-e="tc" d="M260 72 C260 106.1 260 99.9 260 134"/><path class="e-lit" data-e="ch" d="M260 190 C260 230.7 90 223.3 90 264"/><path class="e-lit" data-e="cf" d="M260 190 C260 230.7 260 223.3 260 264"/><path class="e-lit" data-e="cg" d="M260 190 C260 230.7 430 223.3 430 264"/><path class="e-lit" data-e="hp" d="M90 320 C90 356.3 260 349.7 260 386"/><path class="e-lit" data-e="fp" d="M260 320 C260 356.3 260 349.7 260 386"/><path class="e-lit" data-e="gp" d="M430 320 C430 356.3 260 349.7 260 386"/><path class="e-lit" data-e="pm" d="M260 442 C260 473.9 260 468.1 260 500"/></g><g class="e-labels" aria-hidden="true"><g transform="translate(150 226)"><rect x="-38" y="-11" width="76" height="22" rx="11"/><text y="4">Low value</text></g><g transform="translate(372 226)"><rect x="-40" y="-11" width="80" height="22" rx="11"/><text y="4">High value</text></g></g><g class="nodes" aria-hidden="true"><g class="node" data-n="t" transform="translate(260 44)"><rect class="ring" x="-75" y="-28" width="150" height="56" rx="14"/><rect class="box" x="-75" y="-28" width="150" height="56" rx="14"/><text class="kind" y="-6">TRIGGER</text><text class="ttl" y="13">Request submitted</text><g class="tick" transform="translate(64 -17)"><circle r="8"/><path d="M-3.5 0l2.5 2.5 4.5-5"/></g></g><g class="node" data-n="c" transform="translate(260 162)"><rect class="ring" x="-75" y="-28" width="150" height="56" rx="14"/><rect class="box" x="-75" y="-28" width="150" height="56" rx="14"/><text class="kind" y="-6">CONDITION</text><text class="ttl" y="13">Check total value</text><g class="tick" transform="translate(64 -17)"><circle r="8"/><path d="M-3.5 0l2.5 2.5 4.5-5"/></g></g><g class="node" data-n="h" transform="translate(90 292)"><rect class="ring" x="-75" y="-28" width="150" height="56" rx="14"/><rect class="box" x="-75" y="-28" width="150" height="56" rx="14"/><text class="kind" y="-6">APPROVAL</text><text class="ttl" y="13">Head of department</text><g class="tick" transform="translate(64 -17)"><circle r="8"/><path d="M-3.5 0l2.5 2.5 4.5-5"/></g></g><g class="node" data-n="f" transform="translate(260 292)"><rect class="ring" x="-75" y="-28" width="150" height="56" rx="14"/><rect class="box" x="-75" y="-28" width="150" height="56" rx="14"/><text class="kind" y="-6">APPROVAL</text><text class="ttl" y="13">Finance</text><g class="tick" transform="translate(64 -17)"><circle r="8"/><path d="M-3.5 0l2.5 2.5 4.5-5"/></g></g><g class="node" data-n="g" transform="translate(430 292)"><rect class="ring" x="-75" y="-28" width="150" height="56" rx="14"/><rect class="box" x="-75" y="-28" width="150" height="56" rx="14"/><text class="kind" y="-6">APPROVAL</text><text class="ttl" y="13">General manager</text><g class="tick" transform="translate(64 -17)"><circle r="8"/><path d="M-3.5 0l2.5 2.5 4.5-5"/></g></g><g class="node" data-n="p" transform="translate(260 414)"><rect class="ring" x="-75" y="-28" width="150" height="56" rx="14"/><rect class="box" x="-75" y="-28" width="150" height="56" rx="14"/><text class="kind" y="-6">ACTION</text><text class="ttl" y="13">PDF to SharePoint</text><g class="tick" transform="translate(64 -17)"><circle r="8"/><path d="M-3.5 0l2.5 2.5 4.5-5"/></g></g><g class="node" data-n="m" transform="translate(260 528)"><rect class="ring" x="-75" y="-28" width="150" height="56" rx="14"/><rect class="box" x="-75" y="-28" width="150" height="56" rx="14"/><text class="kind" y="-6">NOTIFY</text><text class="ttl" y="13">Requester emailed</text><g class="tick" transform="translate(64 -17)"><circle r="8"/><path d="M-3.5 0l2.5 2.5 4.5-5"/></g></g></g><g class="tokens"></g></svg><figcaption class="label flow-cap"><span class="flow-dot" aria-hidden="true"></span><span id="flow-cap">An approval run</span></figcaption></figure>
     </div>
@@ -1207,10 +1211,10 @@ body[data-view="certificates"] .cert-year { font-weight: 600; }
   <section class="stats glance" aria-label="At a glance">
     <div class="wrap">
       <ul class="stat-row four">
-        <li class="stat"><span class="stat-n">4</span><span class="stat-d">sectors served at SRKK Consulting: aviation leasing, hospitality, education and non-profit.</span></li>
+        <li class="stat"><span class="stat-n">10</span><span class="stat-d">client organisations or so, across hospitality, aircraft leasing, education, healthcare, real estate, the arts and non-profits.</span></li>
         <li class="stat"><span class="stat-n">5</span><span class="stat-d">approval levels in a single request form, routed by amount and item type.</span></li>
         <li class="stat"><span class="stat-n">36</span><span class="stat-d">pages of acceptance tests I wrote and ran for one platform migration.</span></li>
-        <li class="stat"><span class="stat-n">3</span><span class="stat-d">platforms in daily use: Power Platform, Nintex Automation Cloud and SharePoint, with SQL Database behind them.</span></li>
+        <li class="stat"><span class="stat-n">11</span><span class="stat-d">Power Automate flows moved from production to UAT in one capital expenditure solution.</span></li>
       </ul>
     </div>
   </section>
@@ -1358,9 +1362,10 @@ body[data-view="certificates"] .cert-year { font-weight: 600; }
         <h3>Toolkit</h3>
         <table class="spec">
           <tr><th class="label" scope="row">Build</th><td>Power Apps, Power Automate, Power Pages<span>Canvas and model-driven apps, approval flows, portals</span></td></tr>
-          <tr><th class="label" scope="row">Data</th><td>SQL Database, SharePoint Online<span>Environment migration from production to UAT</span></td></tr>
-          <tr><th class="label" scope="row">Workflow</th><td>Nintex Automation Cloud</td></tr>
-          <tr><th class="label" scope="row">Certified</th><td>PL-200 · Power Platform Functional Consultant<span>2026 · next: PL-400 Developer</span></td></tr>
+          <tr><th class="label" scope="row">Workflow</th><td>Nintex Automation Cloud, Nintex Workflow, Nintex RPA, Nintex App</td></tr>
+          <tr><th class="label" scope="row">Data</th><td>SQL Database, SharePoint Online, SharePoint 2013<span>Environment migration from production to UAT</span></td></tr>
+          <tr><th class="label" scope="row">Support</th><td>Application managed services<span>Ticket queue, issue fixes, change requests, contract activation and expiry</span></td></tr>
+          <tr><th class="label" scope="row">Certified</th><td>PL-200 · Power Platform Functional Consultant<span>Nintex Process Automation Expert I and II</span></td></tr>
         </table>
       </div>
     </div>
@@ -1370,7 +1375,7 @@ body[data-view="certificates"] .cert-year { font-weight: 600; }
       <div class="section-head">
         <p class="label">University</p>
         <h2 id="earlier-title">Where it started.</h2>
-        <p>Public repositories from my degree, including the final-year project.</p>
+        <p>BSc (Hons) Software Engineering from Coventry University and Bachelor of Computer Science (Hons) from INTI International University, both 2025. Public repositories from the degree, including the final-year project.</p>
       </div>
       <ul class="index">
         <li><a href="https://github.com/jl5489/FYP-project-Personal-Assist-Task-Management-System-with-NLP-Telegram-Bot" target="_blank" rel="noopener">
@@ -1635,7 +1640,7 @@ body[data-view="certificates"] .cert-year { font-weight: 600; }
     <div class="wrap">
       <p class="label">Certificates</p>
       <h1 id="cert-title">On paper.</h1>
-      <p class="lede">The certificates behind the work, from secondary school to Microsoft.</p>
+      <p class="lede">The certificates behind the work, from secondary school and two university degrees to Microsoft and Nintex.</p>
     </div>
   </section>
   <section class="section" aria-label="Certificates">
@@ -1646,20 +1651,54 @@ body[data-view="certificates"] .cert-year { font-weight: 600; }
           <span class="seal" aria-hidden="true">PL-200</span>
           <h3>Microsoft Certified: Power Platform Functional Consultant Associate</h3>
           <dl class="cert-facts">
-            <div><dt class="label">Exam</dt><dd>PL-200, passed July 2026</dd></div>
+            <div><dt class="label">Earned</dt><dd>10 August 2026, exam PL-200</dd></div>
             <div><dt class="label">Covers</dt><dd>Power Apps, Power Automate and Power Pages</dd></div>
-            <div><dt class="label">Next</dt><dd>PL-400, Power Platform Developer</dd></div>
           </dl>
-          <p><span class="todo">Verification link to add</span></p>
+          <p><a class="cert-verify" href="https://learn.microsoft.com/en-gb/users/teohjialiang-8562/credentials/certification/power-platform-functional-consultant-associate?tab=credentials-tab" target="_blank" rel="noopener">Verify on Microsoft Learn ↗</a></p>
+        </li>
+        <li class="cert">
+          <div class="cert-top"><span class="label">Nintex</span><span class="cert-year">I · II</span></div>
+          <span class="seal" aria-hidden="true">NAC</span>
+          <h3>Nintex Process Automation Expert I and II</h3>
+          <dl class="cert-facts">
+            <div><dt class="label">Used for</dt><dd>Client approval systems and a platform migration at SRKK Consulting</dd></div>
+          </dl>
+        </li>
+        <li class="cert">
+          <div class="cert-top"><span class="label">Coventry University</span><span class="cert-year">2025</span></div>
+          <span class="seal" aria-hidden="true">BSc</span>
+          <h3>Bachelor of Science with Honours in Software Engineering</h3>
+          <dl class="cert-facts">
+            <div><dt class="label">Class</dt><dd>Upper Second Class</dd></div>
+            <div><dt class="label">Awarded</dt><dd>August 2025</dd></div>
+          </dl>
+        </li>
+        <li class="cert">
+          <div class="cert-top"><span class="label">INTI International University</span><span class="cert-year">2025</span></div>
+          <span class="seal" aria-hidden="true">Hons</span>
+          <h3>Bachelor of Computer Science (Hons)</h3>
+          <dl class="cert-facts">
+            <div><dt class="label">Class</dt><dd>Second Class (First Division)</dd></div>
+            <div><dt class="label">Awarded</dt><dd>14 November 2025</dd></div>
+          </dl>
         </li>
         <li class="cert">
           <div class="cert-top"><span class="label">Dong Zong · 董总</span><span class="cert-year">UEC</span></div>
           <span class="seal" aria-hidden="true">统考</span>
           <h3>Unified Examination Certificate</h3>
           <dl class="cert-facts">
-            <div><dt class="label">Level</dt><dd><span class="todo">To add</span></dd></div>
-            <div><dt class="label">School</dt><dd><span class="todo">To add</span></dd></div>
-            <div><dt class="label">Results</dt><dd><span class="todo">To add</span></dd></div>
+            <div><dt class="label">Level</dt><dd>Senior Middle · 高中统考, 2021</dd></div>
+            <div><dt class="label">School</dt><dd>Foon Yew High School, Kulai · 宽柔中学古来分校</dd></div>
+            <div><dt class="label">Results</dt><dd>9 passes, with A1 in Mathematics and Advanced Mathematics, A2 in Geography and Business Studies</dd></div>
+          </dl>
+        </li>
+        <li class="cert">
+          <div class="cert-top"><span class="label">Wushu · 武术</span><span class="cert-year">2018–19</span></div>
+          <span class="seal" aria-hidden="true">武</span>
+          <h3>Wushu competitions</h3>
+          <dl class="cert-facts">
+            <div><dt class="label">2018</dt><dd>Johor inter-school wushu championship, Johor Bahru (state level)</dd></div>
+            <div><dt class="label">2019</dt><dd>3rd Kulai District Wushu Competition, Kulai</dd></div>
           </dl>
         </li>
         <li class="cert more"><span class="label">Next</span><h3>More certificates on the way.</h3></li>
@@ -1672,7 +1711,7 @@ body[data-view="certificates"] .cert-year { font-weight: 600; }
 <footer class="foot" id="contact">
     <div class="wrap">
       <p class="foot-line">Let the workflow do <span>the busywork</span>.</p>
-      <figure class="foot-quote"><blockquote><p>“Possibly the most common error of a smart engineer is to optimize something that should not exist.”</p></blockquote><figcaption class="label">Elon Musk, <a href="https://cleantechnica.com/2021/08/16/elon-musk-reveals-his-5-step-engineering-protocol/" target="_blank" rel="noopener">on his five-step engineering process, 2021 ↗</a></figcaption></figure>
+      <figure class="foot-quote"><blockquote><p>“Any product that needs a manual to work is broken.”</p></blockquote><figcaption class="label">Elon Musk, <a href="https://www.goodreads.com/author/quotes/7221234.Elon_Musk" target="_blank" rel="noopener">via Goodreads ↗</a></figcaption></figure>
       <div class="contact">
         <div class="mail">
           <span class="label">Email</span>

@@ -1139,6 +1139,10 @@ body[data-view="certificates"] .cert-year { font-weight: 600; }
 .pet-stage .pet { transition: opacity 0.35s ease; }
 .pet-stage.is-sharing .pet { opacity: 0; }
 .pet-stage.is-sharing { outline: 3px solid var(--accent, #c2410c); outline-offset: -3px; }
+
+/* Certificates: verification link */
+.cert-verify { font-size: 0.85rem; letter-spacing: 0.04em; color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.cert-verify:hover { text-decoration-thickness: 2px; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-delay: 0ms !important; transition-duration: 0.01ms !important; }
@@ -1421,7 +1425,7 @@ body[data-view="certificates"] .cert-year { font-weight: 600; }
 <footer class="foot" id="contact">
     <div class="wrap">
       <p class="foot-line">Let the workflow do <span>the busywork</span>.</p>
-      <figure class="foot-quote"><blockquote><p>“Possibly the most common error of a smart engineer is to optimize something that should not exist.”</p></blockquote><figcaption class="label">Elon Musk, <a href="https://cleantechnica.com/2021/08/16/elon-musk-reveals-his-5-step-engineering-protocol/" target="_blank" rel="noopener">on his five-step engineering process, 2021 ↗</a></figcaption></figure>
+      <figure class="foot-quote"><blockquote><p>“Any product that needs a manual to work is broken.”</p></blockquote><figcaption class="label">Elon Musk, <a href="https://www.goodreads.com/author/quotes/7221234.Elon_Musk" target="_blank" rel="noopener">via Goodreads ↗</a></figcaption></figure>
       <div class="contact">
         <div class="mail">
           <span class="label">Email</span>
