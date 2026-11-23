@@ -1967,11 +1967,17 @@ body[data-view="apps"] .nav .wrap { max-width: none; padding-left: calc(clamp(12
   var first = true;
   function show() {
     var h = (location.hash || '').replace('#', '');
-    if (names.indexOf(h) < 0) h = 'home';
+    var target = null;
+    if (names.indexOf(h) < 0) {
+      target = h ? document.getElementById(h) : null;
+      var pv = target && target.closest('.view');
+      h = pv ? pv.dataset.view : 'home';
+    }
     views.forEach(function (v) { v.hidden = v.dataset.view !== h; });
     document.body.dataset.view = h;
     links.forEach(function (a) { if (a.dataset.nav === h) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current'); });
-    if (!first) window.scrollTo(0, 0);
+    if (target) setTimeout(function () { target.scrollIntoView(); window.scrollBy(0, -72); }, 60);
+    else if (!first) window.scrollTo(0, 0);
     first = false;
   }
   window.addEventListener('hashchange', show);
